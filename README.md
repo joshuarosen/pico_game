@@ -1,5 +1,4 @@
 # pico_game
-We make a game
 
 Hey guize here's your guide:
 This will probably be a shitshow, but I'll be mostly available this week to video chat and help y'all out.
@@ -33,25 +32,23 @@ Step 4.
   You now have a working repository that is linked with the online repo.
 
 Okay, brief description of your basic workflow:
-  Every time you want to work on the game, you should open up Sourcetree (make sure the repo folder is selected on the left hand side).
-  Then, you should click the "Pull" button and then click "OK".
-  Pulling means that you are syncing your local folder with the one stored on github.com. This ensures that when you make changes, you're
-    working on the most recent build we have.
-  After you've pulled, you can go ahead and open up PICO-8.
-  PICO-8 should initialize to your carts directory. From here, you can type "ls" to see all the files and directories available to you.
-  Type "cd [your repo folder name]" to change directories to the repo.
-  Then you can load in files with "load game.p8.png"
-  Now make all your changes. Yay!
-  When you're done making changes, go back to Sourcetree.
+  1. Every time you want to work on the game, you should open up Sourcetree (make sure the repo folder is selected on the left hand side).
+  2. Then, you should click the "Pull" button and then click "OK". Pulling means that you are syncing your local folder with the one stored on github.com. This ensures that when you make changes, you're working on the most recent build we have.
+  3. After you've pulled, you can go ahead and open up PICO-8.
+  4. PICO-8 should initialize to your carts directory. From here, you can type "ls" to see all the files and directories available to you.
+  5. Type "cd [your repo folder name]" to change directories to the repo folder. Once again, you can type "ls" to see all the files and directories in this folder (it should only be "game.p8.png" and "README.md")
+  6. Then you can load in files with "load game.p8.png"
+  7. Now make all your changes. Yay!
+  8. When you're done making changes, go back to Sourcetree.
   You should see the file "game.p8.png" in the "Unstaged files" box in the middle of the screen.
-  Go ahead and click the "Stage All" button which should move the file up to the "Staged files" box.
+  9. Go ahead and click the "Stage All" button which should move the file up to the "Staged files" box.
   Now the file is staged and is ready to be committed.
-  In the text box towards the bottom of the screen, just under your name/email address, 
+  10. In the text box towards the bottom of the screen, just under your name/email address, 
     type in a message that says what this change accomplished ("made a new graphic, yay").
-  Then click the commit button.
-  It is super important to note that commit does NOT send the changed file to github, it only commits it locally on your machine.
+  11. Then click the commit button.
+  12. It is super important to note that commit does NOT send the changed file to github, it only commits it locally on your machine.
   To send the changed file to github.com, you have to click the "Push" button AFTER you stage and commit the file.
-  Make sure the "master" branch is checked in the popup window, and then click the second "Push" button to send the file to github.com
+  13. Make sure the "master" branch is checked in the popup window, and then click the second "Push" button to send the file to github.com
   Now the changed file will be on github.com and when someone else clicks the "Pull" button they will get the newly changed file.
   
   
